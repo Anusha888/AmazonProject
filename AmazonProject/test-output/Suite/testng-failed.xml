@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.amazon.qa.utilities.TestListener"/>
+    <listener class-name="com.amazon.qa.utilities.AnnotationTranformListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.SearchPageTest">
+        <methods>
+          <include name="meth"/>
+          <include name="launch"/>
+          <include name="teardowm"/>
+          <include name="setexten"/>
+          <include name="endext"/>
+        </methods>
+      </class> <!-- TestCases.SearchPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
